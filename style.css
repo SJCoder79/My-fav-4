@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+     background-image: linear-gradient(to right, orange,red);
+}
+.line{
+   height:6px;
+  background-color:black;
+  width:70px;
+  margin:8px auto;
+}
+img{
+    width: 200px;
+    height: 300px;
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+img:hover{
+    transform: scale(0.9);
+}
+h1{
+    font-family: sans-serif;
+}
+h2{
+    font-family: cursive;
+}
